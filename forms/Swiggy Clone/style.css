@@ -225,7 +225,7 @@ padding:0;
     text-transform:uppercase;
     font-weight: 600;  
 }
-@media screen and (max-width:480px){
+@media screen and(min-width:320px) and (max-width:480px){
     .nav .left-nav{
         column-gap: 9px;
     }
