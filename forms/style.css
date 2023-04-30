@@ -1,0 +1,33 @@
+p{
+    border: 1px solid palevioletred;
+    color: blueviolet;
+    font-size: 20px;
+}
+.para{
+    border:1px solid blue;
+    color:brown;
+    background-color: aquamarine;
+    font-size: large;
+}
+#para-1{
+    border:1px solid burlywood;
+    color:azure;
+    background-color: black;
+    font: 20px;
+}
+.button-1{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 22px;
+    width: 20%;
+    font-size: 16px;
+}
+#but-1{
+    background-color: aqua;
+}
+#but-2{
+    background-color: brown;
+}
+#but-3{
+    background-color: red;
+}

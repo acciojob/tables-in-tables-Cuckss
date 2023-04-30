@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="./style.css">
+    <title>Position in CSS</title>
+    <style>
+       .parent{
+         height:200vh;
+         background-color:yellow;
+         color:black;
+         padding:30px;
+       }
+       .class{
+        padding:10px;
+       }
+       .class-1{
+            background-color: red;
+            border:1px solid black;
+        }
+        .class-2{
+            background-color:blue;
+            border:1px solid black;
+        }
+        .class-3{
+            background-color:green;
+            border:1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Positions in CSS</h1>
+    <ol>
+        <li>
+            Static: The original or default position of an element. 
+        </li>
+        <li>
+            Relative: Element is positioned relative to it's normal/original position.
+             Same as static positioning, just that here we can move are elements by adding offset values. 
+             Element stays in normal document flow. 
+        </li>
+        <li>
+            Absolute: Element is positioned relative to it's parent. 
+            If parent is not present, then element is is positioned relative 
+            to the main document.
+            Element is removed from the normal document flow, no space is created for that element.</li>
+        <li>
+            Fixed: Element is positioned relative to the viewport. 
+            Element doesn't move and stays in the same position even after scrolling.
+            Element is removed from the normal flow. 
+        </li>
+        <li>
+            Sticky: Element is positioned according to the normal document flow. Till the element
+            hits the top, it has normal position, after it touches the top it becomes fixed.
+        </li>
+    </ol>
+    <div class="parent">
+        parent
+        <div class="class class-1">one</div>
+        <div class="class class-2">two</div>
+        <div class="class class-3">three</div>
+
+        <nav>
+            This is a nav bar
+        </nav>
+    </div>
+   
+</body>
+</html>

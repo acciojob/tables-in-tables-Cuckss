@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+}
+.navbar{
+    width:100%;
+    height:100px;
+    background-color:pink;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    position:fixed;
+}
+.navbar a{
+    text-decoration: none;
+    color:blue;
+    font-size:20px;
+    padding:8px;
+}
+.navbar :hover{
+    background-color: aqua;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    wrap-
+}
